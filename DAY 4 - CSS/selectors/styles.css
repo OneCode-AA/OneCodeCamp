@@ -1,0 +1,38 @@
+.class-name {
+  color: red;
+  background-color: pink;
+}
+span {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+}
+#id-name {
+  font-weight: bold;
+}
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+a[href="https://www.google.com"]
+{
+  text-decoration: none;
+  color: red;
+}
+
+h1,
+h2,
+.parag {
+  color: orange;
+}
+
+.ancestor p {
+  font-style: italic;
+  color: green;
+}
+a.link:hover {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 150%;
+}
